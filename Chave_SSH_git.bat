@@ -27,7 +27,7 @@ ssh-keygen -t ed25519 -C "%emailGitHub%"
 
 mkdir C:\Users\%username%\Desktop\SSH_key
 
-move C:\Users\%username%\.ssh\*.* C:\Users\%username%\Desktop\SSH_key
+copy C:\Users\%username%\.ssh\*.* C:\Users\%username%\Desktop\SSH_key
 
 ren C:\Users\%username%\Desktop\SSH_key\id_ed25519.pub SSH_key.txt
 
