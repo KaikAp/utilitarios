@@ -15,9 +15,9 @@ echo $$$$$$$/   $$$$$$$/ $$/  $$/  $$/           $/     $$/ $$/   $$/  $$$$$$$/ 
 
 echo vou ajudar voce a fazer a chave ssh ^>:D
 
-set /p nomeGitHub=insira o seu nome de usuario
+set /p nomeGitHub=insira o seu nome de usuario: 
 cls
-set /p emailGitHub=insira o seu e-mail
+set /p emailGitHub=insira o seu e-mail: 
 cls
 
 git config --global user.name"%nomeGitHub%"
